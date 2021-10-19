@@ -49,7 +49,7 @@ function HomeScreen({ navigation }) {
        
       <View style={styles.container}>
 
-        <Header></Header>
+        <Header/>
         
         <SectionList style={styles.listaItem}
           contentContainerStyle={{ paddingHorizontal: 10 }}
@@ -76,8 +76,6 @@ function HomeScreen({ navigation }) {
             return <ListItem item={item} />;
           }}
         />
-
-        <Footer></Footer>
         
         </View>
     </ScrollView>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, FlatList, Image, StyleSheet, Button, Touchable, Text, SectionList, SafeAreaView, ScrollView, Alert} from 'react-native';
+import { View, FlatList, Image, StyleSheet, Button, Touchable, Text, SectionList, SafeAreaView, ScrollView, Alert, _ScrollView} from 'react-native';
 import { Icon } from 'react-native-elements'
 
 
@@ -37,20 +37,17 @@ import { Icon } from 'react-native-elements'
                 />
             </View>
             <View style={styles.cartao}>
-                <View style={styles.cartaoText}>
+            <View style={styles.cartaoText}>
                     <Text style={styles.cartaotitulo}>
-                        Aceitamos Cartões             
+                        Nossas Redes Sociais          
                     </Text>
                 </View>
-                <Image style={styles.stretch}
-                   source={require('../images/cartoes.png')}
-                   style={styles.itemPhoto1}
-                />
                 <Image style={styles.stretch}
                    source={require('../images/logos-redes.png')}
                    style={styles.itemPhoto2}
                 />
             </View>
+            
         </View>
     )
 }

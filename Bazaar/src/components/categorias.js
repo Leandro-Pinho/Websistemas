@@ -1,0 +1,188 @@
+const Lista = [
+    {
+      title: 'Mada Feminina',
+      data: [
+        {
+          key: '1',
+          text: 'camiseta longa',
+          Descricao: 'camisa longa oversized de algodão manga longa off white',
+          Preco: 'por R$ 129,99', 
+          parcela: 'em até 6x de R$ 21,66 sem juros',
+          uri: 'https://cea.vtexassets.com/arquivos/ids/50800341-1600-auto?width=1600&height=auto&aspect=true',
+        },
+        {
+          key: '2',
+          text: 'regata cropped',
+          Descricao: 'regata cropped em laise alça fina amarração babados laranja',
+          Preco: 'por R$ 49,99', 
+          parcela: 'em até 6x de R$ 8,33 sem juros',
+          uri: 'https://cea.vtexassets.com/arquivos/ids/50799988-1600-auto?width=1600&height=auto&aspect=true',
+        },
+  
+        {
+          key: '3',
+          text: 'conjunto de regata',
+          Descricao: 'conjunto de regata cropped básica canelada decote redondo + short mostarda',
+          Preco: 'por R$ 79,99', 
+          parcela: 'em até 6x de R$ 13,33 sem juros',
+          uri: 'https://cea.vtexassets.com/arquivos/ids/50796957-1600-auto?width=1600&height=auto&aspect=true',
+        },
+        {
+          key: '4',
+          text: 'macaquinho alça fina',
+          Descricao: 'macaquinho alça fina com amarração estampado de abacaxi off white',
+          Preco: 'por R$ 149,99', 
+          parcela: 'em até 6x de R$ 24,99 sem juros',
+          uri: 'https://cea.vtexassets.com/arquivos/ids/50800507-1600-auto?width=1600&height=auto&aspect=true',
+        },
+        {
+          key: '5',
+          text: 'vestido midi',
+          Descricao: 'vestido midi estampado xadrez vichy com amarração alça fina preto',
+          Preco: 'por R$ 179,99', 
+          parcela: 'em até 6x de R$ 29,99 sem juros',
+          uri: 'https://cea.vtexassets.com/arquivos/ids/50796478-1600-auto?width=1600&height=auto&aspect=true',
+        },
+      ],
+    },
+    {
+      title: 'Moda Masculina',
+      data: [
+        {
+          key: '1',
+          text: 'camiseta de algodão',
+          Descricao: 'camiseta de algodão "original scotch whisky" manga curta gola careca verde escuro',
+          Preco: 'por R$ 39,99', 
+          parcela: 'em até 4x de R$ 9,99 sem juros',
+          uri: 'https://cea.vtexassets.com/arquivos/ids/50767643-1600-auto?width=1600&height=auto&aspect=true',
+        },
+        {
+          key: '2',
+          text: 'calça jogger',
+          Descricao: 'calça jogger de piquet com cordão e bolsos preta',
+          Preco: 'por R$ 89,99', 
+          parcela: 'em até 6x de R$ 14,99 sem juros',
+          uri: 'https://cea.vtexassets.com/arquivos/ids/50766656-1600-auto?width=1600&height=auto&aspect=true',
+        },
+  
+        {
+          key: '3',
+          text: 'bermuda reta',
+          Descricao: 'bermuda reta texturizada com bolso kaki',
+          Preco: 'por R$ 94,99', 
+          parcela: 'em até 6x de R$ 15,83 sem juros',
+          uri: 'https://cea.vtexassets.com/arquivos/ids/50768270-1600-auto?width=1600&height=auto&aspect=true',
+        },
+        {
+          key: '4',
+          text: 'camiseta de algodão',
+          Descricao: 'camiseta de algodão naruto manga curta gola careca azul claro',
+          Preco: 'por R$ 49,99', 
+          parcela: 'em até 6x de R$ 21,66 sem juros',
+          uri: 'https://cea.vtexassets.com/arquivos/ids/50768056-1600-auto?width=1600&height=auto&aspect=true',
+        },
+        {
+          key: '5',
+          text: 'bermuda basica',
+          Descricao: 'bermuda básica piquet com bolso verde',
+          Preco: 'por R$ 59,99', 
+          parcela: 'em até 6x de R$ 9,99 sem juros',
+          uri: 'https://cea.vtexassets.com/arquivos/ids/50720973-1600-auto?width=1600&height=auto&aspect=true',
+        },
+      ],
+    },
+    {
+        title: 'Moda Infantil',
+        data: [
+          {
+            key: '1',
+            text: 'camiseta infantil',
+            Descricao: 'camiseta infantil patrulha canina manga curta com capuz azul',
+            Preco: 'por R$ 51,99', 
+            parcela: 'em até 6x de R$ 8,66 sem juros',
+            uri: 'https://cea.vtexassets.com/arquivos/ids/50261482-1600-auto?v=637648044641400000&width=1600&height=auto&aspect=true',
+          },
+          {
+            key: '2',
+            text: 'camiseta infantil',
+            Descricao: 'camiseta infantil toy story woody manga curta multicor',
+            Preco: 'por R$ 29,99', 
+            parcela: 'em até 3x de R$ 9,99 sem juros',
+            uri: 'https://cea.vtexassets.com/arquivos/ids/50310880-1600-auto?v=637649005320830000&width=1600&height=auto&aspect=true',
+          },
+    
+          {
+            key: '3',
+            text: 'kit infantil',
+            Descricao: 'kit infantil de blusa praia buzz lightear toy story manga longa + sunga +touca proteção uv50+ verde',
+            Preco: 'por R$ 99,99', 
+            parcela: 'em até 6x de R$ 16,66 sem juros',
+            uri: 'https://cea.vtexassets.com/arquivos/ids/50613955-1600-auto?v=637669113629130000&width=1600&height=auto&aspect=true',
+          },
+          {
+            key: '4',
+            text: 'pijama infantil',
+            Descricao: 'pijama infantil unicórnio "i woke up this magical" manga curta rosa',
+            Preco: 'por R$ 49,99', 
+            parcela: 'em até 6x de R$ 8,33 sem juros',
+            uri: 'https://cea.vtexassets.com/arquivos/ids/50613833-1600-auto?v=637669108399730000&width=1600&height=auto&aspect=true',
+          },
+          {
+            key: '5',
+            text: 'vestido infantil',
+            Descricao: 'vestido infantil estampado minnie mouse + bolsa preto',
+            Preco: 'por R$ 85,99', 
+            parcela: 'em até 6x de R$ 14,33 sem juros',
+            uri: 'https://cea.vtexassets.com/arquivos/ids/50613639-1600-auto?v=637669099320770000&width=1600&height=auto&aspect=true',
+          },
+        ],
+      },
+      {
+        title: 'Calçados',
+        data: [
+          {
+            key: '1',
+            text: 'Tênis feminino',
+            Descricao: 'tênis feminino de lona oneself bege claro',
+            Preco: 'por R$ 71,99', 
+            parcela: 'em até 6x de R$ 11,99 sem juros',
+            uri: 'https://cea.vtexassets.com/arquivos/ids/50706314-1600-auto?v=637681226924330000&width=1600&height=auto&aspect=true',
+          },
+          {
+            key: '2',
+            text: 'mule feminino',
+            Descricao: 'mule feminino via uno texturizado croco com corrente preto',
+            Preco: 'por R$ 60,99', 
+            parcela: 'em até 6x de R$ 10,16 sem juros',
+            uri: 'https://cea.vtexassets.com/arquivos/ids/28392043-1600-auto?v=637485029140130000&width=1600&height=auto&aspect=true',
+          },
+    
+          {
+            key: '3',
+            text: 'tênis asics',
+            Descricao: 'tênis asics excite 8 cinza',
+            Preco: 'por R$ 308,00', 
+            parcela: 'em até 6x de R$ 51,33 sem juros',
+            uri: 'https://cea.vtexassets.com/arquivos/ids/50846526-1600-auto?v=637699263092530000&width=1600&height=auto&aspect=true',
+          },
+          {
+            key: '4',
+            text: 'tênis masculino',
+            Descricao: 'tênis masculino esportivo ace azul royal',
+            Preco: 'por R$ 69,99', 
+            parcela: 'em até 6x de R$ 11,66 sem juros',
+            uri: 'https://cea.vtexassets.com/arquivos/ids/11931790-1600-auto?v=637171263297270000&width=1600&height=auto&aspect=true',
+          },
+          {
+            key: '5',
+            text: 'chinelo masculino',
+            Descricao: 'chinelo masculino havaianas logomania preto',
+            Preco: 'por R$ 34,99', 
+            parcela: 'em até 4x de R$ 8,74 sem juros',
+            uri: 'https://cea.vtexassets.com/arquivos/ids/46799233-1600-auto?v=637629978892630000&width=1600&height=auto&aspect=true',
+          },
+        ],
+      }, 
+  ];
+
+export default Lista;

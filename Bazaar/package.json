@@ -11,6 +11,7 @@
     "@expo-google-fonts/abril-fatface": "^0.2.0",
     "@expo-google-fonts/almarai": "^0.2.0",
     "@expo-google-fonts/inter": "^0.2.0",
+    "@react-navigation/bottom-tabs": "^6.0.9",
     "@react-navigation/native": "^6.0.5",
     "@react-navigation/native-stack": "^6.2.3",
     "expo": "~42.0.1",
@@ -26,7 +27,8 @@
     "react-native-screens": "~3.4.0",
     "react-native-shadow": "^1.2.2",
     "react-native-vector-icons": "^8.1.0",
-    "react-native-web": "~0.13.12"
+    "react-native-web": "~0.13.12",
+    "react-navigation-stack": "^2.10.4"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0"
